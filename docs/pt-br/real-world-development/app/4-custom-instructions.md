@@ -19,7 +19,7 @@ Nesta lição, você vai:
 Como toda boa equipe de desenvolvimento, a Tailspin Toys tem um conjunto de diretrizes e requisitos para as práticas de desenvolvimento. Entre eles:
 
 - Os comentários devem explicar a intenção e as decisões que não são óbvias, em vez de apenas repetir o código.
-- As funções exportadas em `db/` e `src/lib/` devem documentar finalidade, parâmetros e valores retornados com TSDoc/JSDoc, incluindo um argumento `db` injetável quando houver.
+- As funções exportadas em `db/` e `src/lib/` devem documentar finalidade, parâmetros e valores retornados com comentários de documentação do TypeScript (TSDoc) e do JavaScript (JSDoc), incluindo um argumento `db` injetável quando houver.
 - Os componentes reutilizáveis do Astro devem documentar seus contratos `Props`, e os comentários devem permanecer atualizados quando o código relacionado for alterado.
 - As orientações existentes de formatação e lint devem ser preservadas.
 
@@ -31,7 +31,7 @@ As instruções personalizadas fornecem contexto e preferências ao Copilot para
 
 Há dois tipos de arquivos de instruções:
 
-- `.github/copilot-instructions.md`, um único arquivo de instruções enviado ao Copilot em **todas** as solicitações do repositório. Esse arquivo deve conter informações do projeto, ou seja, um contexto relevante para a maioria das solicitações enviadas ao Copilot pelo chat ou pela CLI. Isso pode incluir a pilha de tecnologia usada, uma visão geral do que está sendo criado, práticas recomendadas e outras orientações globais.
+- `.github/copilot-instructions.md`, um único arquivo de instruções enviado ao Copilot em **todas** as solicitações do repositório. Esse arquivo deve conter informações do projeto, ou seja, um contexto relevante para a maioria das solicitações enviadas ao Copilot pelo chat ou pela interface de linha de comando (CLI). Isso pode incluir a pilha de tecnologia usada, uma visão geral do que está sendo criado, práticas recomendadas e outras orientações globais.
 - Os arquivos `.github/instructions/*.instructions.md` podem ser criados para tarefas ou tipos de arquivo específicos. Você pode usá-los para fornecer diretrizes para determinadas linguagens, como TypeScript ou Astro, ou para tarefas como criar um componente de interface ou um novo conjunto de testes de unidade.
 
 > [!NOTE]

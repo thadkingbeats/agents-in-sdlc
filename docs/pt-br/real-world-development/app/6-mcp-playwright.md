@@ -1,12 +1,12 @@
 ---
-title: "Lição 6 - Validar a funcionalidade com o MCP do Playwright"
-description: "Configure o MCP do Playwright pelo Customize e observe a filtragem no navegador, no worktree existente do recurso."
+title: "Lição 6 - Validar a funcionalidade com o Model Context Protocol (MCP) do Playwright"
+description: "Configure o servidor do Model Context Protocol (MCP) do Playwright pelo Customize e observe a filtragem no navegador, no worktree existente do recurso."
 authors:
   - geektrainer
 lastUpdated: 2026-07-09
 ---
 
-Como já destacamos, escrever código envolve mais do que apenas escrever código. Precisamos trabalhar com dados e serviços externos e até disponibilizar automações adicionais ao Copilot. É aí que entram os servidores MCP. Eles permitem que o Copilot vá além do que está integrado ao aplicativo, oferecendo ainda mais ferramentas e serviços.
+Como já destacamos, escrever código envolve mais do que apenas escrever código. Precisamos trabalhar com dados e serviços externos e até disponibilizar automações adicionais ao Copilot. É aí que entram os servidores do Model Context Protocol (MCP). Eles permitem que o Copilot vá além do que está integrado ao aplicativo, oferecendo ainda mais ferramentas e serviços.
 
 Nesta lição, você vai:
 

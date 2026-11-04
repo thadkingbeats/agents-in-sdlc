@@ -3,10 +3,10 @@ slug: es-es/real-world-development/app
 title: "Aplicación GitHub Copilot"
 authors:
   - geektrainer
-lastUpdated: 2026-06-30
+lastUpdated: 2026-10-22
 ---
 
-La [**aplicación GitHub Copilot**](https://docs.github.com/copilot/concepts/agents/github-copilot-app) es una aplicación de escritorio basada en Copilot CLI que reúne el desarrollo dirigido por agentes en un único espacio de trabajo específico. Añade sesiones de agente en paralelo, modos de sesión intercambiables, lienzos compartidos y gestión nativa de incidencias y solicitudes de incorporación de cambios de GitHub, incluido **Agent Merge**, que guía una solicitud durante reorganizaciones de base, comentarios de revisión, correcciones de CI y la combinación.
+La [**aplicación GitHub Copilot**](https://docs.github.com/copilot/concepts/agents/github-copilot-app) es una aplicación de escritorio basada en Copilot CLI que reúne el desarrollo dirigido por agentes en un único espacio de trabajo específico. Añade sesiones de agente en paralelo, modos de sesión intercambiables, lienzos compartidos y gestión nativa de incidencias y solicitudes de incorporación de cambios de GitHub, incluido **Agent Merge**, que guía una solicitud durante los rebases, los comentarios de revisión, las correcciones de integración continua (CI) y la combinación.
 
 El taller sigue un único flujo continuo de Tailspin Toys:
 
@@ -35,7 +35,7 @@ Para mantener el taller centrado, crearás dos PR: una para las valoraciones por
 | [6. Validar la funcionalidad con MCP de Playwright][ex6] | Observación en el navegador | Configura MCP mediante Customize y examina el comportamiento del filtrado |
 | [7. Crear y utilizar un agente QA][ex7] | Requisitos y cobertura | Crea y selecciona un perfil especializado y reúne las pruebas de verificación finales |
 | [8. Crear y combinar la PR de la funcionalidad][ex8] | Revisión y combinación | Revisa el filtrado, las instrucciones, la habilidad, el perfil QA y las pruebas y utiliza Agent Merge para la segunda PR |
-| [9. Explorar y crear lienzos][ex9] | Colaboración | Usa Database Explorer y, después, crea y prueba un lienzo de clasificación respaldado por el repositorio |
+| [9. Explorar y crear lienzos][ex9] | Colaboración | Comprueba si hay lienzos disponibles y, después, usa Database Explorer y crea y prueba un lienzo de triaje respaldado por el repositorio. Si no dispones de las funciones necesarias, registra el bloqueo y utiliza la alternativa de solo lectura o continúa con el repaso |
 | [10. Repaso y pasos siguientes][ex10] | Resumen | Revisa el flujo, los recursos creados y otros materiales |
 
 ## Requisitos previos
@@ -53,7 +53,7 @@ Antes de asistir a este taller, asegúrate de disponer de:
 > Como la aplicación Copilot se ejecuta en tu propio equipo y no en un codespace, la [Lección 0][ex0] explica cómo instalar Node.js y crear tu copia del proyecto antes de instalar la aplicación.
 
 > [!NOTE]
-> Si utilizas Copilot Business o Copilot Enterprise, el administrador debe habilitar la directiva **Copilot CLI** para que puedas utilizar la aplicación.
+> Si utilizas Copilot Business o Copilot Enterprise, el administrador debe mantener habilitada la directiva **GitHub Copilot app**. Es una directiva independiente de la directiva de Copilot CLI.
 
 ## Comenzar
 

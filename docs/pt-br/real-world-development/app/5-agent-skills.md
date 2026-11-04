@@ -88,7 +88,7 @@ Você personalizou e usou uma skill de agente existente. Nesta lição, você:
 - personalizou o formato dos resultados.
 - executou a skill e revisou sua saída.
 
-Essa alteração acompanhará a filtragem no PR do recurso. Em seguida, você permitirá que o Copilot interaja diretamente com o site [por meio do servidor MCP do Playwright][next-lesson].
+Essa alteração acompanhará a filtragem no pull request (PR) do recurso. Em seguida, você permitirá que o Copilot interaja diretamente com o site [por meio do servidor do Model Context Protocol (MCP) do Playwright][next-lesson].
 
 ## Mais exemplos de skills
 

@@ -1,12 +1,12 @@
 ---
-title: "Lição 7 - Criar e usar um agente de QA"
-description: "Crie um perfil de QA que parta dos requisitos e combine cobertura de testes, a skill quality-checks e evidências diretas do navegador."
+title: "Lição 7 - Criar e usar um agente de garantia de qualidade (QA)"
+description: "Crie um perfil de garantia de qualidade (QA) que parta dos requisitos e combine cobertura de testes, a skill quality-checks e evidências diretas do navegador."
 authors:
   - geektrainer
 lastUpdated: 2026-09-17
 ---
 
-Você usou a skill `quality-checks` para executar verificações automatizadas e o MCP do Playwright para observar a experiência de filtragem em um navegador. Agora, reunirá essas capacidades em um agente personalizado com um processo de QA claramente definido.
+Você usou a skill `quality-checks` para executar verificações automatizadas e o servidor do Model Context Protocol (MCP) do Playwright para observar a experiência de filtragem em um navegador. Agora, reunirá essas capacidades em um agente personalizado com um processo de QA claramente definido.
 
 Nesta lição, você vai:
 
@@ -59,7 +59,7 @@ Com o perfil revisado, selecione QA na sessão atual para que ele possa usar a i
     Review the filtering feature against the issue and the decisions in our plan. Is it ready for a PR?
     ```
 
-4. Confirme que o QA usa a issue e as decisões de planejamento corretas. Forneça a URL da issue ou qualquer contexto ausente se ele solicitar.
+4. Confirme que o QA usa a issue e as decisões de planejamento corretas. Forneça o endereço da issue ou qualquer contexto ausente se ele solicitar.
 5. Quando o trabalho for concluído, leia o relatório apresentado.
 
 ## Resumo e próximos passos

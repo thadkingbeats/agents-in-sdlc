@@ -1,6 +1,6 @@
 ---
 title: "Lição 10 - Encerramento e próximos passos"
-description: "Recapitule o fluxo do aplicativo, os dois marcos de PR, os exercícios de canvas e as práticas reutilizáveis de qualidade e explore outros recursos."
+description: "Recapitule o fluxo do aplicativo, os dois marcos de pull request (PR), os exercícios de canvas e as práticas reutilizáveis de qualidade e explore outros recursos."
 authors:
   - geektrainer
 lastUpdated: 2026-09-29
@@ -13,7 +13,7 @@ Você usou o aplicativo GitHub Copilot em um fluxo contínuo da Tailspin Toys. V
 - começou pela issue de filtragem, definiu a abordagem no modo **Plan**, desenvolveu-a no modo **Autopilot** e a revisou no modo **Interactive**.
 - orientou o agente com instruções personalizadas e depois personalizou a skill `quality-checks` existente e a usou para executar testes de unidade, lint e verificações de tipos.
 - adicionou o servidor do Model Context Protocol (MCP) do Playwright e o usou para explorar a filtragem em um navegador real.
-- criou e selecionou um agente personalizado QA para avaliar requisitos, cobertura, resultados dos scripts da skill e evidências do navegador.
+- criou e selecionou um agente personalizado de garantia de qualidade (QA) para avaliar requisitos, cobertura, resultados dos scripts da skill e evidências do navegador.
 - revisou toda a alteração de filtragem e autorizou o **Agent Merge** no segundo PR.
 - usou o canvas Database Explorer existente e depois criou e testou um canvas de triagem vinculado ao repositório.
 
@@ -47,14 +47,14 @@ Você percorreu o fluxo de trabalho principal. Veja outros recursos que valem a 
 - [**Automações**][using-automations] para tarefas recorrentes ou sob demanda, como resumir trabalhos recentes. Revise a agenda, as permissões e o escopo antes de adotar uma; criar uma automação é um próximo passo, não parte deste workshop.
 - **Rubber duck** para analisar um problema e receber feedback relevante antes de começar a desenvolver.
 - [`/chronicle`][chronicle] para gerar uma narrativa do que aconteceu em uma sessão.
-- [Bring your own key (BYOK)][byok] para usar modelos do seu próprio provedor, incluindo modelos locais por meio de Ollama, Foundry Local ou LM Studio.
+- [Traga sua própria chave (bring your own key, BYOK)][byok] para usar modelos do seu próprio provedor, incluindo modelos locais por meio de Ollama, Foundry Local ou LM Studio.
 - [Deep links][deep-links] para abrir o aplicativo diretamente em um repositório, uma sessão ou um prompt.
 
 ## Próximos passos
 
 A melhor maneira de melhorar com qualquer ferramenta é continuar usando-a. Use-a em código de produção, em projetos pessoais ou naquele pequeno aplicativo que você planeja criar há anos. Compartilhe o que aprendeu com sua equipe e aprenda com as experiências dela. E, como sempre, explore a documentação.
 
-Para conhecer melhor o ecossistema do GitHub Copilot, confira o [percurso do VS Code][vscode-harness], o [percurso do Copilot CLI][cli-harness] ou o [percurso do agente de nuvem][cloud-harness].
+Para conhecer melhor o ecossistema do GitHub Copilot, confira o [percurso do VS Code][vscode-harness], o [percurso do GitHub Copilot CLI (interface de linha de comando)][cli-harness] ou o [percurso do agente de nuvem][cloud-harness].
 
 ## Recursos
 
